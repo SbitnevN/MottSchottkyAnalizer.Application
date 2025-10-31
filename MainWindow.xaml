@@ -1,0 +1,121 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MottSchottkyAnalizer.Application"
+        xmlns:FileControls="clr-namespace:MottSchottkyAnalizer.Application.Controls.FileControls" xmlns:oxy="http://oxyplot.org/wpf" xmlns:FileImporter="clr-namespace:MottSchottkyAnalizer.Application.Controls.FileControls.FileImporter" x:Class="MottSchottkyAnalizer.Application.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="{StaticResource White}">
+
+    <Window.DataContext>
+        <local:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Side-->
+        <StackPanel>
+            <StackPanel Orientation="Vertical">
+                <FileImporter:FileImporterView DataContext="{Binding ExperimentImportViewModel}" Padding="20, 10, 20, 5"/>
+            </StackPanel>
+
+            <Border BorderBrush="{StaticResource PrimaryBrush}" BorderThickness="1" Margin="20 5" CornerRadius="5" Padding="5">
+                <StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Область для анализа данных в координатах Боде"
+                                   FontSize="{StaticResource BigFontSize}"
+                                   Foreground="{StaticResource Black}"/>
+
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 10">
+                            <TextBlock Text="Диапазон потенциалов от "
+                                       VerticalAlignment="Center"
+                                       FontSize="{StaticResource NormalFontSize}"
+                                       Foreground="{StaticResource Black}"/>
+
+                            <TextBox MinWidth="28"
+                                     MaxWidth="28"
+                                     Text="{Binding StartPotential, UpdateSourceTrigger=PropertyChanged, StringFormat=N2}"
+                                     TextAlignment="Center" 
+                                     VerticalAlignment="Center"
+                                     VerticalContentAlignment="Center"
+                                     FontSize="{StaticResource NormalFontSize}"
+                                     Foreground="{StaticResource Black}"/>
+
+                            <TextBlock Text="В до "
+                                       VerticalAlignment="Center"
+                                       FontSize="{StaticResource NormalFontSize}"
+                                       Foreground="{StaticResource Black}"/>
+
+                            <TextBox  MinWidth="28" MaxWidth="28"
+                                      Text="{Binding EndPotential, UpdateSourceTrigger=PropertyChanged, StringFormat=N2}"
+                                      TextAlignment="Center"
+                                      VerticalAlignment="Center"
+                                      VerticalContentAlignment="Center"
+                                      FontSize="{StaticResource NormalFontSize}"
+                                      Foreground="{StaticResource Black}"/>
+
+                            <TextBlock Text="В с шагом "
+                                       VerticalAlignment="Center"
+                                       FontSize="{StaticResource NormalFontSize}"
+                                       Foreground="{StaticResource Black}"/>
+
+                            <TextBox MinWidth="28" MaxWidth="28"
+                                     Text="{Binding StepPotential, StringFormat=N2, Mode=TwoWay}"
+                                     TextAlignment="Center"
+                                     VerticalAlignment="Center"
+                                     VerticalContentAlignment="Center"
+                                     FontSize="{StaticResource NormalFontSize}"
+                                     Foreground="{StaticResource Black}"/>
+
+                            <TextBlock Text="В"
+                                       VerticalAlignment="Center"
+                                       FontSize="{StaticResource NormalFontSize}"
+                                       Foreground="{StaticResource Black}"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel>
+                        <RadioButton Margin="0 5"
+                                     VerticalContentAlignment="Center"
+                                     Content="По возрастанию потенциала"
+                                     FontSize="{StaticResource SmallFontSize}"
+                                     IsChecked="True"
+                                     Foreground="{StaticResource Black}"/>
+
+                        <RadioButton Margin="0 5"
+                                     VerticalContentAlignment="Center"
+                                     Content="По убыванию потенциала"
+                                     FontSize="{StaticResource SmallFontSize}"
+                                     Foreground="{StaticResource Black}"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 10">
+                        <TextBlock Text="Дальнейший анализ проводить на частоте"/>
+                        <TextBox Text="{Binding Frequency, StringFormat=N2}" Margin="5, 0, 0, 0" MinWidth="60"/>
+                        <TextBlock Text="Гц"/>
+                    </StackPanel>
+
+                    <FileControls:FileExporterView DataContext="{Binding ExperimentExportViewModel}" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        
+        <!-- Right Side -->
+        <TabControl Background="{StaticResource White}" Grid.Column="1">
+            <TabItem Header="Координаты Боде">
+                <oxy:PlotView Grid.Column="1" Background="{StaticResource White}" Margin="10,10,10,50" Model="{Binding PlotModel}"/>
+            </TabItem>
+
+            <TabItem Header="Координаты Мотта-Шоттки">
+                <oxy:PlotView Grid.Column="1" Background="{StaticResource White}" Margin="10,10,10,50"/>
+            </TabItem>
+        </TabControl>
+
+
+    </Grid>
+</Window>
