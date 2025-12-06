@@ -1,104 +1,145 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using ElinsDataParser.Data;
-using MottSchottkyAnalizer.Application.Controls.FileControls.FileExporter;
-using MottSchottkyAnalizer.Application.Controls.FileControls.FileImporter;
+﻿using ElinsDataParser.Data;
+using ElinsDataParser.Extensions;
+using MottSchottkyAnalizer.Controls.CustomMenu;
+using MottSchottkyAnalizer.Controls.ListEditor;
+using MottSchottkyAnalizer.Core.ViewModel;
+using MottSchottkyAnalizer.DI.Registration;
+using MottSchottkyAnalizer.Infrastructure.Dialogs;
 using OxyPlot;
 using OxyPlot.Axes;
 using OxyPlot.Series;
+using System.IO;
 
-namespace MottSchottkyAnalizer.Application
+namespace MottSchottkyAnalizer.Application;
+
+[ViewModel<MainWindowViewModel>]
+public class MainWindowViewModel : ViewModelBase
 {
-    public partial class MainWindowViewModel : ObservableObject
+    private readonly IDialogService _dialogService;
+
+    public ElinsData ExperimentData
     {
-        private ElinsData _experimentData = new ElinsData();
+        get => field;
+        set => Set(ref field, value);
+    } = new ElinsData();
 
-        [ObservableProperty]
-        private FileExporterViewModel<ElinsData> _experimentExportViewModel;
+    public PlotModel PlotModel
+    {
+        get => field;
+        set => Set(ref field, value);
+    } = new PlotModel();
 
-        [ObservableProperty]
-        private FileImporterViewModel _experimentImportViewModel;
+    public double StartPotential
+    {
+        get => field;
+        set => Set(ref field, value);
+    }
 
-        [ObservableProperty]
-        private PlotModel _plotModel = new PlotModel();
+    public double EndPotential
+    {
+        get => field;
+        set => Set(ref field, value);
+    }
 
-        [ObservableProperty]
-        private double _startPotential = 0;
+    public double StepPotential
+    {
+        get => field;
+        set => Set(ref field, value);
+    }
 
-        [ObservableProperty]
-        private double _endPotential = 0;
+    public double Frequency
+    {
+        get => field;
+        set => Set(ref field, value);
+    }
 
-        [ObservableProperty]
-        private double _stepPotential = 0;
+    public MenuViewModel MenuViewModel { get; set; }
 
-        [ObservableProperty]
-        private double _frequency = 0;
+    public IRelayCommand DialogShow { get; set; }
 
-        public MainWindowViewModel()
+    public MainWindowViewModel(IDialogService dialogService, MenuViewModel menuViewModel)
+    {
+        InitializePlot();
+
+        _dialogService = dialogService;
+        MenuViewModel = menuViewModel;
+
+        DialogShow = new RelayCommand(Dialog);
+
+        MenuViewModel.DataImported += HandleDataImported;
+        MenuViewModel.DataExported += HandleDataExported;
+    }
+
+    private void Dialog()
+    {
+        ListEditorParameters parameters = new ListEditorParameters()
         {
-            ExperimentExportViewModel = new FileExporterViewModel<ElinsData>();
-            ExperimentImportViewModel = new FileImporterViewModel();
+            Title = "Редактор списка",
+            Items = ExperimentData.ImpedancePoints.Cast<object>().ToList(),
+        };
 
-            ExperimentImportViewModel.OnFileImport += CalculatePlot;
+        if (_dialogService.Show<ListEditorView>(parameters))
+            CalculatePlot();
+    }
 
-            InitializePlot();
-        }
+    private void InitializePlot()
+    {
+        PlotModel.Title = "Координаты Боде";
 
-        private void InitializePlot()
+        PlotModel.Axes.Add(new LogarithmicAxis()
         {
-            PlotModel.Title = "Координаты Боде";
+            Position = AxisPosition.Bottom,
+            Title = "Частота, Гц",
+        });
 
-            PlotModel.Axes.Add(new LinearAxis()
-            {
-                Position = AxisPosition.Bottom,
-                Title = "Частота, Гц"
-            });
-
-            PlotModel.Axes.Add(new LinearAxis()
-            {
-                Position = AxisPosition.Left,
-                Title = "C, Ф/м2"
-            });
-        }
-
-        private async void CalculatePlot(string filePath)
+        PlotModel.Axes.Add(new LinearAxis()
         {
-            _experimentData = await Parser.ParseAsync(filePath);
+            Position = AxisPosition.Left,
+            Title = "C, Ф/м2"
+        });
+    }
 
-            IEnumerable<DataPoint> point = _experimentData.ImpedancePoints
-                .OrderBy(p => p.Frequency)
-                .Select(p => new DataPoint(p.Frequency, p.Capacitance));
+    private void CalculatePlot()
+    {
+        IEnumerable<DataPoint> point = ExperimentData.ImpedancePoints
+            .OrderBy(p => p.Frequency)
+            .Select(p => new DataPoint(p.Frequency, p.Capacitance));
 
-            PlotModel.Series.Clear();
+        PlotModel.Series.Clear();
 
-            LineSeries series = new LineSeries();
-            series.Points.AddRange(point);
-
-            PlotModel.Series.Add(series);
-            PlotModel.ResetAllAxes();
-            PlotModel.InvalidatePlot(true);
-
-            UpdateStepPotential();
-        }
-
-        private void UpdateStepPotential()
+        LineSeries series = new LineSeries
         {
-            if (StartPotential != 0 && EndPotential != 0 && _experimentData?.Steps?.Count > 0 && StepPotential == 0)
-                StepPotential = Math.Abs(EndPotential - StartPotential) / _experimentData.Steps.Count;
-        }
+            MarkerType = MarkerType.Circle,
+            MarkerSize = 2,
+            MarkerFill = OxyColors.Red,
+        };
+        series.Points.AddRange(point);
 
-        partial void OnStartPotentialChanged(double value)
+        PlotModel.Series.Add(series);
+        PlotModel.ResetAllAxes();
+        PlotModel.InvalidatePlot(true);
+
+        UpdateStepPotential();
+    }
+
+    private void UpdateStepPotential()
+    {
+        if (StartPotential != 0 && EndPotential != 0 && ExperimentData?.Steps?.Count > 0 && StepPotential == 0)
+            StepPotential = Math.Abs(EndPotential - StartPotential) / ExperimentData.Steps.Count;
+    }
+
+    private void HandleDataImported(MenuViewModel menu, DataImportedEventArgs args)
+    {
+        ExperimentData = args.Data;
+        CalculatePlot();
+    }
+
+    private void HandleDataExported(MenuViewModel menu, DataExportedEventArgs args)
+    {
+        string path = args.Path;
+        using (StreamWriter writer = new StreamWriter(path))
         {
-            UpdateStepPotential();
-        }
-
-        partial void OnEndPotentialChanged(double value)
-        {
-            UpdateStepPotential();
-        }
-
-        partial void OnFrequencyChanged(double value)
-        {
-
+            writer.Write(ExperimentData.ToCsv());
         }
     }
 }

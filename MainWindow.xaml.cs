@@ -1,15 +1,14 @@
-﻿using System.Windows;
+﻿using MottSchottkyAnalizer.DI.Registration;
+using System.Windows;
 
-namespace MottSchottkyAnalizer.Application
+namespace MottSchottkyAnalizer.Application;
+
+[View<MainWindow>]
+public partial class MainWindow : Window
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public MainWindow(MainWindowViewModel viewModel)
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+        DataContext = viewModel;
     }
 }

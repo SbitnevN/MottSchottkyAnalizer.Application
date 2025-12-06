@@ -4,14 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MottSchottkyAnalizer.Application"
-        xmlns:FileControls="clr-namespace:MottSchottkyAnalizer.Application.Controls.FileControls" xmlns:oxy="http://oxyplot.org/wpf" xmlns:FileImporter="clr-namespace:MottSchottkyAnalizer.Application.Controls.FileControls.FileImporter" x:Class="MottSchottkyAnalizer.Application.MainWindow"
+        xmlns:menu="clr-namespace:MottSchottkyAnalizer.Controls.CustomMenu;assembly=MottSchottkyAnalizer.Controls"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        x:Class="MottSchottkyAnalizer.Application.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="{StaticResource White}">
-
-    <Window.DataContext>
-        <local:MainWindowViewModel/>
-    </Window.DataContext>
-
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -20,8 +17,8 @@
 
         <!-- Left Side-->
         <StackPanel>
+            <menu:MenuView DataContext="{Binding MenuViewModel}"/>
             <StackPanel Orientation="Vertical">
-                <FileImporter:FileImporterView DataContext="{Binding ExperimentImportViewModel}" Padding="20, 10, 20, 5"/>
             </StackPanel>
 
             <Border BorderBrush="{StaticResource PrimaryBrush}" BorderThickness="1" Margin="20 5" CornerRadius="5" Padding="5">
@@ -100,9 +97,9 @@
                         <TextBlock Text="Гц"/>
                     </StackPanel>
 
-                    <FileControls:FileExporterView DataContext="{Binding ExperimentExportViewModel}" />
                 </StackPanel>
             </Border>
+            <Button Content="Button" Command="{Binding DialogShow}"/>
         </StackPanel>
         
         <!-- Right Side -->
