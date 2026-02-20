@@ -8,104 +8,106 @@
         xmlns:oxy="http://oxyplot.org/wpf"
         x:Class="MottSchottkyAnalizer.Application.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="{StaticResource White}">
+        Title="MainWindow" Height="720" Width="1280" Background="{StaticResource White}">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-
-        <!-- Left Side-->
-        <StackPanel>
-            <menu:MenuView DataContext="{Binding MenuViewModel}"/>
-            <StackPanel Orientation="Vertical">
-            </StackPanel>
-
-            <Border BorderBrush="{StaticResource PrimaryBrush}" BorderThickness="1" Margin="20 5" CornerRadius="5" Padding="5">
-                <StackPanel>
-                    <StackPanel Orientation="Vertical">
-                        <TextBlock Text="Область для анализа данных в координатах Боде"
-                                   FontSize="{StaticResource BigFontSize}"
-                                   Foreground="{StaticResource Black}"/>
-
-                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 10">
-                            <TextBlock Text="Диапазон потенциалов от "
-                                       VerticalAlignment="Center"
-                                       FontSize="{StaticResource NormalFontSize}"
-                                       Foreground="{StaticResource Black}"/>
-
-                            <TextBox MinWidth="28"
-                                     MaxWidth="28"
-                                     Text="{Binding StartPotential, UpdateSourceTrigger=PropertyChanged, StringFormat=N2}"
-                                     TextAlignment="Center" 
-                                     VerticalAlignment="Center"
-                                     VerticalContentAlignment="Center"
-                                     FontSize="{StaticResource NormalFontSize}"
-                                     Foreground="{StaticResource Black}"/>
-
-                            <TextBlock Text="В до "
-                                       VerticalAlignment="Center"
-                                       FontSize="{StaticResource NormalFontSize}"
-                                       Foreground="{StaticResource Black}"/>
-
-                            <TextBox  MinWidth="28" MaxWidth="28"
-                                      Text="{Binding EndPotential, UpdateSourceTrigger=PropertyChanged, StringFormat=N2}"
-                                      TextAlignment="Center"
-                                      VerticalAlignment="Center"
-                                      VerticalContentAlignment="Center"
-                                      FontSize="{StaticResource NormalFontSize}"
-                                      Foreground="{StaticResource Black}"/>
-
-                            <TextBlock Text="В с шагом "
-                                       VerticalAlignment="Center"
-                                       FontSize="{StaticResource NormalFontSize}"
-                                       Foreground="{StaticResource Black}"/>
-
-                            <TextBox MinWidth="28" MaxWidth="28"
-                                     Text="{Binding StepPotential, StringFormat=N2, Mode=TwoWay}"
-                                     TextAlignment="Center"
-                                     VerticalAlignment="Center"
-                                     VerticalContentAlignment="Center"
-                                     FontSize="{StaticResource NormalFontSize}"
-                                     Foreground="{StaticResource Black}"/>
-
-                            <TextBlock Text="В"
-                                       VerticalAlignment="Center"
-                                       FontSize="{StaticResource NormalFontSize}"
-                                       Foreground="{StaticResource Black}"/>
-                        </StackPanel>
-                    </StackPanel>
-
-                    <StackPanel>
-                        <RadioButton Margin="0 5"
-                                     VerticalContentAlignment="Center"
-                                     Content="По возрастанию потенциала"
-                                     FontSize="{StaticResource SmallFontSize}"
-                                     IsChecked="True"
-                                     Foreground="{StaticResource Black}"/>
-
-                        <RadioButton Margin="0 5"
-                                     VerticalContentAlignment="Center"
-                                     Content="По убыванию потенциала"
-                                     FontSize="{StaticResource SmallFontSize}"
-                                     Foreground="{StaticResource Black}"/>
-                    </StackPanel>
-
-                    <StackPanel Orientation="Horizontal" Margin="0 10">
-                        <TextBlock Text="Дальнейший анализ проводить на частоте"/>
-                        <TextBox Text="{Binding Frequency, StringFormat=N2}" Margin="5, 0, 0, 0" MinWidth="60"/>
-                        <TextBlock Text="Гц"/>
-                    </StackPanel>
-
-                </StackPanel>
-            </Border>
-            <Button Content="Button" Command="{Binding DialogShow}"/>
-        </StackPanel>
-        
-        <!-- Right Side -->
-        <TabControl Background="{StaticResource White}" Grid.Column="1">
+        <menu:MenuView DataContext="{Binding MenuViewModel}"/>
+        <TabControl Background="{StaticResource White}" Margin="0 25 0 0">
             <TabItem Header="Координаты Боде">
-                <oxy:PlotView Grid.Column="1" Background="{StaticResource White}" Margin="10,10,10,50" Model="{Binding PlotModel}"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Left Side-->
+                    <StackPanel>
+                        <StackPanel Orientation="Vertical">
+                        </StackPanel>
+
+                        <Border BorderBrush="{StaticResource PrimaryBrush}" BorderThickness="1" Margin="20 5" CornerRadius="5" Padding="5">
+                            <StackPanel>
+                                <StackPanel Orientation="Vertical">
+                                    <TextBlock Text="Область для анализа данных в координатах Боде"
+                            FontSize="{StaticResource BigFontSize}"
+                            Foreground="{StaticResource Black}"/>
+
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 10">
+                                        <TextBlock Text="Диапазон потенциалов от "
+                                VerticalAlignment="Center"
+                                FontSize="{StaticResource NormalFontSize}"
+                                Foreground="{StaticResource Black}"/>
+
+                                        <TextBox MinWidth="28"
+                              MaxWidth="28"
+                              Text="{Binding StartPotential, UpdateSourceTrigger=PropertyChanged, StringFormat=N2}"
+                              TextAlignment="Center" 
+                              VerticalAlignment="Center"
+                              VerticalContentAlignment="Center"
+                              FontSize="{StaticResource NormalFontSize}"
+                              Foreground="{StaticResource Black}"/>
+
+                                        <TextBlock Text="В до "
+                                VerticalAlignment="Center"
+                                FontSize="{StaticResource NormalFontSize}"
+                                Foreground="{StaticResource Black}"/>
+
+                                        <TextBox  MinWidth="28" MaxWidth="28"
+                               Text="{Binding EndPotential, UpdateSourceTrigger=PropertyChanged, StringFormat=N2}"
+                               TextAlignment="Center"
+                               VerticalAlignment="Center"
+                               VerticalContentAlignment="Center"
+                               FontSize="{StaticResource NormalFontSize}"
+                               Foreground="{StaticResource Black}"/>
+
+                                        <TextBlock Text="В с шагом "
+                                VerticalAlignment="Center"
+                                FontSize="{StaticResource NormalFontSize}"
+                                Foreground="{StaticResource Black}"/>
+
+                                        <TextBox MinWidth="28" MaxWidth="28"
+                              Text="{Binding StepPotential, StringFormat=N2, Mode=TwoWay}"
+                              TextAlignment="Center"
+                              VerticalAlignment="Center"
+                              VerticalContentAlignment="Center"
+                              FontSize="{StaticResource NormalFontSize}"
+                              Foreground="{StaticResource Black}"/>
+
+                                        <TextBlock Text="В"
+                                VerticalAlignment="Center"
+                                FontSize="{StaticResource NormalFontSize}"
+                                Foreground="{StaticResource Black}"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <StackPanel>
+                                    <RadioButton Margin="0 5"
+                              VerticalContentAlignment="Center"
+                              Content="По возрастанию потенциала"
+                              FontSize="{StaticResource SmallFontSize}"
+                              IsChecked="True"
+                              Foreground="{StaticResource Black}"/>
+
+                                    <RadioButton Margin="0 5"
+                              VerticalContentAlignment="Center"
+                              Content="По убыванию потенциала"
+                              FontSize="{StaticResource SmallFontSize}"
+                              Foreground="{StaticResource Black}"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Margin="0 10">
+                                    <TextBlock Text="Дальнейший анализ проводить на частоте"/>
+                                    <TextBox Text="{Binding Frequency, StringFormat=N2}" Margin="5, 0, 0, 0" MinWidth="60"/>
+                                    <TextBlock Text="Гц"/>
+                                </StackPanel>
+
+                            </StackPanel>
+                        </Border>
+                        <Button Content="Button" Command="{Binding DialogShow}"/>
+                    </StackPanel>
+
+                    <!-- Right Side-->
+                    <oxy:PlotView Grid.Column="1" Background="{StaticResource White}" Margin="20" Model="{Binding PlotModel}"/>
+                </Grid>
             </TabItem>
 
             <TabItem Header="Координаты Мотта-Шоттки">

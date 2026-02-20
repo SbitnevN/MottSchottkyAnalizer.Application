@@ -1,5 +1,5 @@
-﻿using ElinsDataParser.Data;
-using ElinsDataParser.Extensions;
+﻿using ElinsData.Data;
+using ElinsData.Extensions;
 using MottSchottkyAnalizer.Controls.CustomMenu;
 using MottSchottkyAnalizer.Controls.ListEditor;
 using MottSchottkyAnalizer.Core.ViewModel;
@@ -17,11 +17,11 @@ public class MainWindowViewModel : ViewModelBase
 {
     private readonly IDialogService _dialogService;
 
-    public ElinsData ExperimentData
+    public ElinsRecord ExperimentData
     {
         get => field;
         set => Set(ref field, value);
-    } = new ElinsData();
+    } = new ElinsRecord();
 
     public PlotModel PlotModel
     {
@@ -90,6 +90,7 @@ public class MainWindowViewModel : ViewModelBase
         {
             Position = AxisPosition.Bottom,
             Title = "Частота, Гц",
+            Base = 10
         });
 
         PlotModel.Axes.Add(new LinearAxis()
@@ -124,8 +125,8 @@ public class MainWindowViewModel : ViewModelBase
 
     private void UpdateStepPotential()
     {
-        if (StartPotential != 0 && EndPotential != 0 && ExperimentData?.Steps?.Count > 0 && StepPotential == 0)
-            StepPotential = Math.Abs(EndPotential - StartPotential) / ExperimentData.Steps.Count;
+        if (StartPotential != 0 && EndPotential != 0 && ExperimentData?.Steps > 0 && StepPotential == 0)
+            StepPotential = Math.Abs(EndPotential - StartPotential) / ExperimentData.Steps;
     }
 
     private void HandleDataImported(MenuViewModel menu, DataImportedEventArgs args)

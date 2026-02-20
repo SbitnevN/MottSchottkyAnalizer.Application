@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ElinsData\ElinsData.csproj" />
+    <ProjectReference Include="..\ElinsDataParser\ElinsData.csproj" />
 	<ProjectReference Include="..\MottSchottkyAnalizer.Infrastructure\MottSchottkyAnalizer.Infrastructure.csproj" />
     <ProjectReference Include="..\MottSchottkyAnalizer.Controls\MottSchottkyAnalizer.Controls.csproj" />
     <ProjectReference Include="..\MottSchottkyAnalizer.Core\MottSchottkyAnalizer.Core.csproj" />

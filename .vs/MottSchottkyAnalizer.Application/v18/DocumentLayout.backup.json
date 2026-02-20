@@ -1,194 +1,358 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\",
+  "WorkspaceRootPath": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|e:\\github\\diplome\\mottschottkyanalizer.application\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\extensions\\elinsdataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\custommenu\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\custommenu\\dataexportedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\custommenu\\dataimportedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\custommenu\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\files\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\data\\impedancepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\listeditor\\listeditorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\listeditor\\listeditorparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\text\\textparserasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|e:\\github\\diplome\\mottschottkyanalizer.application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\text\\textparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|f:\\programming\\diplome\\mottschottkyanalizer.controls\\themes\\styles\\roundedcontrols.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\data\\elinsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|f:\\programming\\diplome\\mottschottkyanalizer.controls\\themes\\styles\\style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\elins\\elinsparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\bufferstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\data\\voltammetrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\data\\step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\listeditor\\listeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\dialogs\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\files\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\files\\iparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|e:\\github\\diplome\\mottschottkyanalizer.application\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\listeditor\\listeditorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\files\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\files\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\mottschottkyanalizer.controls.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\dialogs\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\listeditor\\ilisteditorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|e:\\github\\diplome\\mottschottkyanalizer.core\\dialogs\\dialogparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\mottschottkyanalizer.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\files\\fileselectorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|e:\\github\\diplome\\mottschottkyanalizer.infrastructure\\files\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\custommenu\\menuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|e:\\github\\diplome\\mottschottkyanalizer.core\\mottschottkyanalizer.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\injection\\hostfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|e:\\github\\diplome\\mottschottkyanalizer.application\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|e:\\github\\diplome\\mottschottkyanalizer.application\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|e:\\github\\diplome\\mottschottkyanalizer.core\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|f:\\programming\\diplome\\mottschottkyanalizer.controls\\custommenu\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|e:\\github\\diplome\\mottschottkyanalizer.core\\viewmodel\\irelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|f:\\programming\\diplome\\mottschottkyanalizer.controls\\custommenu\\dataimportedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|e:\\github\\diplome\\mottschottkyanalizer.application\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|f:\\programming\\diplome\\mottschottkyanalizer.controls\\custommenu\\dataexportedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|e:\\github\\diplome\\mottschottkyanalizer.application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{30F305A6-73C1-410C-A22B-01835B0DE529}|..\\MottSchottkyAnalizer.Math\\MottSchottkyAnalizer.Math.csproj|f:\\programming\\diplome\\mottschottkyanalizer.math\\schottkymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|f:\\programming\\diplome\\mottschottkyanalizer.controls\\custommenu\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\data\\elinsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\extensions\\elinsrecordextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\extensions\\spanextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\data\\impedancepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\data\\elinsrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\data\\voltammetrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\elinsdata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30F305A6-73C1-410C-A22B-01835B0DE529}|..\\MottSchottkyAnalizer.Math\\MottSchottkyAnalizer.Math.csproj|f:\\programming\\diplome\\mottschottkyanalizer.math\\mottschottkyanalizer.math.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|f:\\programming\\diplome\\mottschottkyanalizer.di\\mottschottkyanalizer.di.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|f:\\programming\\diplome\\mottschottkyanalizer.infrastructure\\mottschottkyanalizer.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\textreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|f:\\programming\\diplome\\mottschottkyanalizer.infrastructure\\files\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|f:\\programming\\diplome\\mottschottkyanalizer.infrastructure\\files\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|f:\\programming\\diplome\\mottschottkyanalizer.infrastructure\\files\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\textreaderasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\readerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\ielinsreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\elinsreaderasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\elinsreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\bufferstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\elinstags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DCB5740-FF21-0466-72DB-4BF665B2B40E}|..\\ElinsData\\ElinsData.csproj|f:\\programming\\diplome\\elinsdata\\reader\\texttags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\registration\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\registration\\attributes\\viewmodelattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\registration\\attributes\\viewattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\registration\\attributes\\transientattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\registration\\attributes\\scopedattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\registration\\attributes\\registrationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\registration\\attributes\\serviceattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\registration\\attributes\\singletonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|e:\\github\\diplome\\mottschottkyanalizer.application\\mottschottkyanalizer.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\mottschottkyanalizer.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:mottschottkyanalizer.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\injection\\iapphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|f:\\programming\\diplome\\mottschottkyanalizer.core\\mottschottkyanalizer.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\injection\\iappprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|f:\\programming\\diplome\\mottschottkyanalizer.infrastructure\\dialogs\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|e:\\github\\diplome\\mottschottkyanalizer.controls\\files\\fileselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|f:\\programming\\diplome\\mottschottkyanalizer.di\\injection\\hostfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|e:\\github\\diplome\\mottschottkyanalizer.core\\viewmodel\\notifiable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\mottschottkyanalizer.application.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:mottschottkyanalizer.application.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|e:\\github\\diplome\\mottschottkyanalizer.di\\mottschottkyanalizer.di.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|f:\\programming\\diplome\\mottschottkyanalizer.controls\\mottschottkyanalizer.controls.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD2DF08-1D42-83B5-5578-B15357027BE1}|..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj|f:\\programming\\diplome\\mottschottkyanalizer.infrastructure\\dialogs\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1DFB201-14EF-B12E-DC53-8B755967E4E0}|..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj|f:\\programming\\diplome\\mottschottkyanalizer.controls\\listeditor\\listeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|f:\\programming\\diplome\\mottschottkyanalizer.core\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|f:\\programming\\diplome\\mottschottkyanalizer.core\\dialogs\\dialogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{966E18FA-02E7-BF69-7564-CC65DEE20ABB}|..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj|f:\\programming\\diplome\\mottschottkyanalizer.core\\dialogs\\dialogparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}|..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj|f:\\programming\\diplome\\mottschottkyanalizer.di\\registration\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|f:\\programming\\diplome\\mottschottkyanalizer.application\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}|MottSchottkyAnalizer.Application.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\obj\\Debug\\net10.0-windows\\Files\\FileImporter\\FileImporterView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\extensions\\spanextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD52152-F974-26D5-FA33-1FAE268B6F88}|..\\ElinsDataParser\\ElinsDataParser.csproj|e:\\github\\diplome\\elinsdataparser\\text\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorParameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Data\\VoltammetryPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Data\\ImpedancePoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Data\\ElinsData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParserAsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Data\\Step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Elins\\ElinsParser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\IListEditorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\BufferStream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IParser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IFileService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\Files\\FileSelectorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\IRelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\TransientAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewModelAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ScopedAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\RegistrationAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ServiceAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\SingletonAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\IAppHost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\IAppProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\Files\\FileSelector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\Notifiable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Extensions\\SpanExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github\\Diplome\\ElinsDataParser\\Text\\Tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\Text\\TextParser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\IElinsParser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\ParserBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\SchottkyMath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\Text\\TextParserAsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\Data\\VoltammetryPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\Text\\Tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\Elins\\ElinsParser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\Data\\Step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\BufferStream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Programming\\Diplome\\ElinsDataParser\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -198,222 +362,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuViewModel.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T10:54:25.376Z",
+              "DocumentIndex": 4,
+              "Title": "MenuView.xaml",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-06T21:36:38.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MenuView.xaml",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-06T10:46:49.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ElinsDataExtensions.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCAAAAAgAAAAAAAAAA==",
+              "Title": "DataImportedEventArgs.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T21:17:48.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ListEditorParameters.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorParameters.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorParameters.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorParameters.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorParameters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:31:30.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "MainWindowViewModel.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\MainWindowViewModel.cs",
-              "RelativeToolTip": "MainWindowViewModel.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAswG4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T09:47:46.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataExportedEventArgs.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T21:34:16.405Z",
+              "WhenOpened": "2026-02-07T17:12:01.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:13:57.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "VoltammetryPoint.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T17:54:12.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TextParser.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParser.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Text\\TextParser.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParser.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Text\\TextParser.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAWwD4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T07:41:30.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataImportedEventArgs.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T17:36:26.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImpedancePoint.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\ImpedancePoint.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Data\\ImpedancePoint.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\ImpedancePoint.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Data\\ImpedancePoint.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T17:54:06.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ElinsData.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\ElinsData.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Data\\ElinsData.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\ElinsData.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Data\\ElinsData.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T17:55:24.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TextParserAsync.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParserAsync.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Text\\TextParserAsync.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParserAsync.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Text\\TextParserAsync.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwFAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T20:53:44.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ListEditorViewModel.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorViewModel.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorViewModel.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorViewModel.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:31:38.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Step.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\Step.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Data\\Step.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\Step.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Data\\Step.cs",
+              "Title": "DataExportedEventArgs.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T17:55:34.747Z",
+              "WhenOpened": "2026-02-06T21:36:58.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ElinsParser.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Elins\\ElinsParser.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Elins\\ElinsParser.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Elins\\ElinsParser.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Elins\\ElinsParser.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAjwFQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T20:52:33.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\MainWindow.xaml",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\MainWindow.xaml",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-05T09:47:06.176Z",
@@ -421,321 +416,393 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ListEditorView.xaml.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "StringExtensions.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Extensions\\StringExtensions.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Extensions\\StringExtensions.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Extensions\\StringExtensions.cs",
+              "RelativeToolTip": "..\\ElinsData\\Extensions\\StringExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:34:50.599Z"
+              "WhenOpened": "2026-02-07T17:58:58.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IListEditorViewModel.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\IListEditorViewModel.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\IListEditorViewModel.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\IListEditorViewModel.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\IListEditorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:31:24.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BufferStream.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\BufferStream.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\BufferStream.cs",
-              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\BufferStream.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\BufferStream.cs",
+              "DocumentIndex": 22,
+              "Title": "Filters.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T07:40:58.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Parser.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Parser.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Parser.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Parser.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Parser.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T16:34:00.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Filter.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:20:02.634Z"
+              "WhenOpened": "2026-02-07T17:57:18.204Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\AssemblyInfo.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\AssemblyInfo.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TextReader.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\TextReader.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\TextReader.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\TextReader.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\TextReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T20:56:47.718Z",
+              "WhenOpened": "2026-02-07T17:16:35.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ElinsRecordExtensions.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Extensions\\ElinsRecordExtensions.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Extensions\\ElinsRecordExtensions.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Extensions\\ElinsRecordExtensions.cs",
+              "RelativeToolTip": "..\\ElinsData\\Extensions\\ElinsRecordExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:14:54.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ElinsRecord.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Data\\ElinsRecord.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Data\\ElinsRecord.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Data\\ElinsRecord.cs",
+              "RelativeToolTip": "..\\ElinsData\\Data\\ElinsRecord.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:43:52.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:46:18.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Style.xaml",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\Themes\\Styles\\Style.xaml",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\Themes\\Styles\\Style.xaml",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\Themes\\Styles\\Style.xaml",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\Themes\\Styles\\Style.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-07T18:29:54.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoundedControls.xaml",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\Themes\\Styles\\RoundedControls.xaml",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\Themes\\Styles\\RoundedControls.xaml",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\Themes\\Styles\\RoundedControls.xaml*",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\Themes\\Styles\\RoundedControls.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-07T18:30:04.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "IDialogService.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Title": "MottSchottkyAnalizer.Infrastructure.csproj",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-07T17:02:08.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SchottkyMath.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Math\\SchottkyMath.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Math\\SchottkyMath.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Math\\SchottkyMath.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Math\\SchottkyMath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T19:43:38.824Z",
+              "WhenOpened": "2026-02-07T16:20:58.945Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:24:20.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SpanExtensions.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Extensions\\SpanExtensions.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Extensions\\SpanExtensions.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Extensions\\SpanExtensions.cs",
+              "RelativeToolTip": "..\\ElinsData\\Extensions\\SpanExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T18:00:01.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ElinsFactory.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Data\\ElinsFactory.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Data\\ElinsFactory.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Data\\ElinsFactory.cs",
+              "RelativeToolTip": "..\\ElinsData\\Data\\ElinsFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T18:10:54.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ElinsData.csproj",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\ElinsData.csproj",
+              "RelativeDocumentMoniker": "..\\ElinsData\\ElinsData.csproj",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\ElinsData.csproj",
+              "RelativeToolTip": "..\\ElinsData\\ElinsData.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-07T18:17:01.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuViewModel.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T18:19:41.639Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "ListEditorView.xaml",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-06T11:31:44.16Z",
+              "Title": "MottSchottkyAnalizer.DI.csproj",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-07T17:02:05.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImpedancePoint.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Data\\ImpedancePoint.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Data\\ImpedancePoint.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Data\\ImpedancePoint.cs",
+              "RelativeToolTip": "..\\ElinsData\\Data\\ImpedancePoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T18:17:18.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IParser.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IParser.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\IParser.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IParser.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\IParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "VoltammetryPoint.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Data\\VoltammetryPoint.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Data\\VoltammetryPoint.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Data\\VoltammetryPoint.cs",
+              "RelativeToolTip": "..\\ElinsData\\Data\\VoltammetryPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T16:36:45.141Z",
+              "WhenOpened": "2026-02-07T17:43:39.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MottSchottkyAnalizer.Math.csproj",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Math\\MottSchottkyAnalizer.Math.csproj",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Math\\MottSchottkyAnalizer.Math.csproj",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Math\\MottSchottkyAnalizer.Math.csproj",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Math\\MottSchottkyAnalizer.Math.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-07T16:11:41.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:09:40.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\Parser.cs",
+              "RelativeDocumentMoniker": "Parser.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\Parser.cs",
+              "RelativeToolTip": "Parser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:11:53.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReaderBase.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\ReaderBase.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\ReaderBase.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\ReaderBase.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\ReaderBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:15:53.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IElinsReader.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\IElinsReader.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\IElinsReader.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\IElinsReader.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\IElinsReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:16:13.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ElinsReaderAsync.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\ElinsReaderAsync.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\ElinsReaderAsync.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\ElinsReaderAsync.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\ElinsReaderAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:14:29.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BufferStream.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\BufferStream.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\BufferStream.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\BufferStream.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\BufferStream.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:17:38.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ElinsReader.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\ElinsReader.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\ElinsReader.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\ElinsReader.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\ElinsReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:15:36.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Parser.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\Parser.cs",
-              "RelativeDocumentMoniker": "Parser.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\Parser.cs",
-              "RelativeToolTip": "Parser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "Filter.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:11:53.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T17:09:41.489Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "MottSchottkyAnalizer.Controls.csproj",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-05T16:20:00.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DialogService.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Title": "TextReaderAsync.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\TextReaderAsync.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\TextReaderAsync.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\TextReaderAsync.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\TextReaderAsync.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBQAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T18:22:24.323Z"
+              "WhenOpened": "2026-02-07T17:41:48.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Filters.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "MainWindowViewModel.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MainWindowViewModel.cs",
+              "RelativeToolTip": "MainWindowViewModel.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwH0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:18:56.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DialogParameters.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:30:29.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "MottSchottkyAnalizer.Infrastructure.csproj",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-06T11:29:59.483Z"
+              "WhenOpened": "2025-12-05T09:47:46.677Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "IFileService.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IFileService.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\IFileService.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IFileService.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Files\\IFileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Title": "ElinsTags.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\ElinsTags.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\ElinsTags.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\ElinsTags.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\ElinsTags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T11:18:37.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "FileSelectorViewModel.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\Files\\FileSelectorViewModel.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\Files\\FileSelectorViewModel.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\Files\\FileSelectorViewModel.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\Files\\FileSelectorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T19:41:10.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T17:40:53.353Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "MenuView.xaml.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Title": "TextTags.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsData\\Reader\\TextTags.cs",
+              "RelativeDocumentMoniker": "..\\ElinsData\\Reader\\TextTags.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsData\\Reader\\TextTags.cs",
+              "RelativeToolTip": "..\\ElinsData\\Reader\\TextTags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T10:47:26.007Z"
+              "WhenOpened": "2026-02-07T17:41:40.521Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "MottSchottkyAnalizer.Core.csproj",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-05T16:19:59.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:24:20.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "HostFactory.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:19:21.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:46:18.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "IRelayCommand.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\IRelayCommand.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\ViewModel\\IRelayCommand.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\IRelayCommand.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\ViewModel\\IRelayCommand.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAIA3wBUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T18:29:20.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "AssemblyInfo.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\AssemblyInfo.cs",
-              "RelativeToolTip": "AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:53:17.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\ViewModel\\RelayCommand.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\RelayCommand.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\ViewModel\\RelayCommand.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T18:29:24.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
               "Title": "App.xaml",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\App.xaml",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\App.xaml",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-05T09:17:13.369Z",
@@ -743,204 +810,780 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "TransientAttribute.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\TransientAttribute.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\TransientAttribute.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\TransientAttribute.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\TransientAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:08:33.029Z"
+              "DocumentIndex": 37,
+              "Title": "MottSchottkyAnalizer.Core.csproj",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-07T17:02:04.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ViewModelAttribute.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewModelAttribute.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewModelAttribute.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewModelAttribute.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewModelAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:08:34.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ViewAttribute.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewAttribute.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewAttribute.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewAttribute.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:08:32.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:07:40.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ScopedAttribute.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ScopedAttribute.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ScopedAttribute.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ScopedAttribute.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ScopedAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:08:03.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "RegistrationAttribute.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\RegistrationAttribute.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\RegistrationAttribute.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\RegistrationAttribute.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\RegistrationAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:08:27.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ServiceAttribute.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ServiceAttribute.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ServiceAttribute.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ServiceAttribute.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ServiceAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T19:46:42.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "SingletonAttribute.cs",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\SingletonAttribute.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\SingletonAttribute.cs",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\SingletonAttribute.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\SingletonAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T17:08:31.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 36,
               "Title": "MottSchottkyAnalizer.Application.csproj",
-              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\MottSchottkyAnalizer.Application.csproj",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MottSchottkyAnalizer.Application.csproj",
               "RelativeDocumentMoniker": "MottSchottkyAnalizer.Application.csproj",
-              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Application\\MottSchottkyAnalizer.Application.csproj",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MottSchottkyAnalizer.Application.csproj",
               "RelativeToolTip": "MottSchottkyAnalizer.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-05T07:56:40.066Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HostFactory.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:10:40.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DialogService.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:34:13.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IDialogService.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:09:38.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MottSchottkyAnalizer.Application.csproj.Backup.tmp",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MottSchottkyAnalizer.Application.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "MottSchottkyAnalizer.Application.csproj.Backup.tmp",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\MottSchottkyAnalizer.Application.csproj.Backup.tmp",
+              "RelativeToolTip": "MottSchottkyAnalizer.Application.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-07T17:15:24.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MottSchottkyAnalizer.Controls.csproj",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-07T16:06:10.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "TextParser.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\Text\\TextParser.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Text\\TextParser.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\Text\\TextParser.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\Text\\TextParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:06:43.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "IElinsParser.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\IElinsParser.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\IElinsParser.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\IElinsParser.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\IElinsParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:00:49.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "ParserBase.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\ParserBase.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\ParserBase.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\ParserBase.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\ParserBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T17:00:23.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "ElinsDataExtensions.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T16:42:48.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "SchottkyMath.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\SchottkyMath.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\SchottkyMath.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\SchottkyMath.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\SchottkyMath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T16:14:53.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "TextParserAsync.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\Text\\TextParserAsync.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Text\\TextParserAsync.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\Text\\TextParserAsync.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\Text\\TextParserAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T14:14:48.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "VoltammetryPoint.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T16:13:08.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Tags.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\Text\\Tags.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Text\\Tags.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\Text\\Tags.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\Text\\Tags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T15:57:07.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ListEditorView.xaml",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-06T21:36:31.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:08:44.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "ElinsParser.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\Elins\\ElinsParser.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Elins\\ElinsParser.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\Elins\\ElinsParser.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\Elins\\ElinsParser.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:05:08.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DialogViewModel.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogViewModel.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\Dialogs\\DialogViewModel.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogViewModel.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\Dialogs\\DialogViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:07:50.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "Step.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\Data\\Step.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Data\\Step.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\Data\\Step.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\Data\\Step.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T11:19:49.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DialogParameters.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:07:46.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "BufferStream.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\BufferStream.cs",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\BufferStream.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\BufferStream.cs",
+              "RelativeToolTip": "..\\ElinsDataParser\\BufferStream.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:06:26.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:05:47.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "README.md",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-06T21:05:34.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "README.md",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\ElinsDataParser\\README.md",
+              "RelativeDocumentMoniker": "..\\ElinsDataParser\\README.md",
+              "ToolTip": "F:\\Programming\\Diplome\\ElinsDataParser\\README.md",
+              "RelativeToolTip": "..\\ElinsDataParser\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-06T21:04:56.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MenuViewModel.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:54:25.376Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 52,
+              "Title": "MenuView.xaml",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-06T10:46:49.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ElinsDataExtensions.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Extensions\\ElinsDataExtensions.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:17:48.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ListEditorParameters.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorParameters.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorParameters.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:31:30.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DataExportedEventArgs.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataExportedEventArgs.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:34:16.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\FileService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:13:57.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "VoltammetryPoint.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\VoltammetryPoint.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:54:12.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "TextParser.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParser.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:41:30.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DataImportedEventArgs.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\DataImportedEventArgs.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:36:26.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ImpedancePoint.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\ImpedancePoint.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\ImpedancePoint.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:54:06.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ElinsData.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\ElinsData.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\ElinsData.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:55:24.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TextParserAsync.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParserAsync.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\TextParserAsync.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T20:53:44.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ListEditorViewModel.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorViewModel.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:31:38.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Step.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\Step.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Data\\Step.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:55:34.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ElinsParser.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Elins\\ElinsParser.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Elins\\ElinsParser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T20:52:33.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ListEditorView.xaml.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:34:50.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IListEditorViewModel.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\IListEditorViewModel.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\IListEditorViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:31:24.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "BufferStream.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\BufferStream.cs",
+              "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\BufferStream.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:40:58.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Parser.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Parser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:34:00.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Filter.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filter.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:20:02.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\AssemblyInfo.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\AssemblyInfo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T20:56:47.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IDialogService.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\IDialogService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T19:43:38.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ListEditorView.xaml",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\ListEditor\\ListEditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-06T11:31:44.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IParser.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IParser.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IParser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:36:45.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "MottSchottkyAnalizer.Controls.csproj",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\MottSchottkyAnalizer.Controls.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T16:20:00.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DialogService.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Dialogs\\DialogService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:22:24.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Filters.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\Filters.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:18:56.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DialogParameters.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\Dialogs\\DialogParameters.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:30:29.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "MottSchottkyAnalizer.Infrastructure.csproj",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\MottSchottkyAnalizer.Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T11:29:59.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IFileService.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Infrastructure\\Files\\IFileService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T11:18:37.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "FileSelectorViewModel.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\Files\\FileSelectorViewModel.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\Files\\FileSelectorViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T19:41:10.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "MenuView.xaml.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\CustomMenu\\MenuView.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:47:26.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "MottSchottkyAnalizer.Core.csproj",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\MottSchottkyAnalizer.Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T16:19:59.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "HostFactory.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\HostFactory.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:19:21.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "IRelayCommand.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\IRelayCommand.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\IRelayCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:29:20.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "F:\\Programming\\Diplome\\MottSchottkyAnalizer.Application\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:53:17.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\RelayCommand.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\RelayCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T18:29:24.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "TransientAttribute.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\TransientAttribute.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\TransientAttribute.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:08:33.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ViewModelAttribute.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewModelAttribute.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewModelAttribute.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:08:34.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ViewAttribute.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewAttribute.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ViewAttribute.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:08:32.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\ServiceCollectionExtensions.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:07:40.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ScopedAttribute.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ScopedAttribute.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ScopedAttribute.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:08:03.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "RegistrationAttribute.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\RegistrationAttribute.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\RegistrationAttribute.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:08:27.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ServiceAttribute.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ServiceAttribute.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\ServiceAttribute.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T19:46:42.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "SingletonAttribute.cs",
+              "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\SingletonAttribute.cs",
+              "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Registration\\Attributes\\SingletonAttribute.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:08:31.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
               "Title": "IAppHost.cs",
               "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\IAppHost.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Injection\\IAppHost.cs",
               "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\IAppHost.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Injection\\IAppHost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T16:40:39.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 96,
               "Title": "IAppProvider.cs",
               "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\IAppProvider.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\Injection\\IAppProvider.cs",
               "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\Injection\\IAppProvider.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\Injection\\IAppProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T18:48:56.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 97,
               "Title": "FileSelector.xaml",
               "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\Files\\FileSelector.xaml",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\Files\\FileSelector.xaml",
               "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\Files\\FileSelector.xaml",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\Files\\FileSelector.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-05T19:41:15.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 98,
               "Title": "Notifiable.cs",
               "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\Notifiable.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Core\\ViewModel\\Notifiable.cs",
               "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Core\\ViewModel\\Notifiable.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Core\\ViewModel\\Notifiable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T18:48:31.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T18:48:31.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 50,
               "Title": "FileImporterView.g.cs",
               "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\obj\\Debug\\net10.0-windows\\Files\\FileImporter\\FileImporterView.g.cs",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.Controls\\obj\\Debug\\net10.0-windows\\Files\\FileImporter\\FileImporterView.g.cs",
               "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.Controls\\obj\\Debug\\net10.0-windows\\Files\\FileImporter\\FileImporterView.g.cs",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.Controls\\obj\\Debug\\net10.0-windows\\Files\\FileImporter\\FileImporterView.g.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T09:44:19.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 99,
               "Title": "MottSchottkyAnalizer.DI.csproj",
               "DocumentMoniker": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj",
-              "RelativeDocumentMoniker": "..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj",
               "ToolTip": "E:\\Github\\Diplome\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj",
-              "RelativeToolTip": "..\\MottSchottkyAnalizer.DI\\MottSchottkyAnalizer.DI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-05T16:20:01.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 100,
               "Title": "SpanExtensions.cs",
               "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Extensions\\SpanExtensions.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Extensions\\SpanExtensions.cs",
               "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Extensions\\SpanExtensions.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Extensions\\SpanExtensions.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAlwEMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T07:41:48.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 101,
               "Title": "Tags.cs",
               "DocumentMoniker": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\Tags.cs",
-              "RelativeDocumentMoniker": "..\\ElinsDataParser\\Text\\Tags.cs",
               "ToolTip": "E:\\Github\\Diplome\\ElinsDataParser\\Text\\Tags.cs",
-              "RelativeToolTip": "..\\ElinsDataParser\\Text\\Tags.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T07:39:19.553Z"
             }

@@ -1,36 +1,34 @@
-﻿using ElinsDataParser;
-using ElinsDataParser.Data;
-using ElinsDataParser.Elins;
-using ElinsDataParser.Text;
+﻿using ElinsData.Data;
+using ElinsData.Reader;
 using System.IO;
 
 namespace MottSchottkyAnalizer.Application;
 
 public static class Parser
 {
-    private static IElinsParser _elinsParser = new ElinsParser();
-    private static IElinsParser _textParser = new TextParser();
+    private static IElinsReader _elinsParser = new ElinsReader();
+    private static IElinsReader _textParser = new ElinsData.Reader.TextReader();
 
-    public static ElinsData Parse(string path)
+    public static ElinsRecord Parse(string path)
     {
         string extension = Path.GetExtension(path);
         if (extension == "txt")
-            return _textParser.Parse(path);
+            return _textParser.Read(path);
 
         if (extension == "txt")
-            return _elinsParser.Parse(path);
+            return _elinsParser.Read(path);
 
         throw new Exception("Неизвестный тип файла");
     }
 
-    public static Task<ElinsData> ParseAsync(string path)
+    public static Task<ElinsRecord> ParseAsync(string path)
     {
         string extension = Path.GetExtension(path);
         if (extension == "txt")
-            return _textParser.ParseAsync(path);
+            return _textParser.ReadAsync(path);
 
         if (extension == "txt")
-            return _elinsParser.ParseAsync(path);
+            return _elinsParser.ReadAsync(path);
 
         throw new Exception("Неизвестный тип файла");
     }

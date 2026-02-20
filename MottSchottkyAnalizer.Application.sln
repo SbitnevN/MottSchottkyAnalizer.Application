@@ -5,8 +5,6 @@ VisualStudioVersion = 18.0.11222.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MottSchottkyAnalizer.Application", "MottSchottkyAnalizer.Application.csproj", "{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElinsDataParser", "..\ElinsDataParser\ElinsDataParser.csproj", "{EFD52152-F974-26D5-FA33-1FAE268B6F88}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MottSchottkyAnalizer.DI", "..\MottSchottkyAnalizer.DI\MottSchottkyAnalizer.DI.csproj", "{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MottSchottkyAnalizer.Core", "..\MottSchottkyAnalizer.Core\MottSchottkyAnalizer.Core.csproj", "{966E18FA-02E7-BF69-7564-CC65DEE20ABB}"
@@ -14,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MottSchottkyAnalizer.Controls", "..\MottSchottkyAnalizer.Controls\MottSchottkyAnalizer.Controls.csproj", "{F1DFB201-14EF-B12E-DC53-8B755967E4E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MottSchottkyAnalizer.Infrastructure", "..\MottSchottkyAnalizer.Infrastructure\MottSchottkyAnalizer.Infrastructure.csproj", "{0AD2DF08-1D42-83B5-5578-B15357027BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MottSchottkyAnalizer.Math", "..\MottSchottkyAnalizer.Math\MottSchottkyAnalizer.Math.csproj", "{30F305A6-73C1-410C-A22B-01835B0DE529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElinsData", "..\ElinsData\ElinsData.csproj", "{5DCB5740-FF21-0466-72DB-4BF665B2B40E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +27,6 @@ Global
 		{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAD957EA-FFAF-8FA9-73E1-BCEF74E077A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFD52152-F974-26D5-FA33-1FAE268B6F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFD52152-F974-26D5-FA33-1FAE268B6F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFD52152-F974-26D5-FA33-1FAE268B6F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFD52152-F974-26D5-FA33-1FAE268B6F88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BDDF817-3B8D-B8E7-2A45-A7DB66C5978C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +43,14 @@ Global
 		{0AD2DF08-1D42-83B5-5578-B15357027BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD2DF08-1D42-83B5-5578-B15357027BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD2DF08-1D42-83B5-5578-B15357027BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F305A6-73C1-410C-A22B-01835B0DE529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F305A6-73C1-410C-A22B-01835B0DE529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F305A6-73C1-410C-A22B-01835B0DE529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F305A6-73C1-410C-A22B-01835B0DE529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCB5740-FF21-0466-72DB-4BF665B2B40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCB5740-FF21-0466-72DB-4BF665B2B40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCB5740-FF21-0466-72DB-4BF665B2B40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCB5740-FF21-0466-72DB-4BF665B2B40E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
