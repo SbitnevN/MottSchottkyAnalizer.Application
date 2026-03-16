@@ -5,7 +5,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Themes/Styles/Style.xaml"/>
+                <ResourceDictionary Source="/MottSchottkyAnalizer.Controls;component/Styles/Style.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

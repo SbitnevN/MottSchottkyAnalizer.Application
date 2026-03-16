@@ -1,7 +1,7 @@
 ﻿using MottSchottkyAnalizer.DI.Registration;
 using System.Windows;
 
-namespace MottSchottkyAnalizer.Application;
+namespace MottSchottkyAnalizer.Application.Main;
 
 [View<MainWindow>]
 public partial class MainWindow : Window
