@@ -9,6 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:oxy="http://oxyplot.org/wpf"
     xmlns:text="clr-namespace:MottSchottkyAnalizer.Controls.Controls.LabeledTextBox;assembly=MottSchottkyAnalizer.Controls"
+    Name="Root"
     Title="MainWindow"
     Width="1280"
     Height="720"
@@ -72,150 +73,221 @@
 
                 <!--#region LeftSide-->
                 <ScrollViewer Grid.Column="0">
-                    <StackPanel>
-                        <StackPanel>
+                    <WrapPanel>
+                        <Border
+                            MaxWidth="585"
+                            MaxHeight="360"
+                            Style="{StaticResource CardStyle}">
+                            <StackPanel VerticalAlignment="Center">
+                                <TextBlock
+                                    FontFamily="{StaticResource TitleFont}"
+                                    FontSize="{StaticResource BigFontSize}"
+                                    Text="∮Потенциалы" />
 
-                            <Border Style="{StaticResource CardStyle}">
-                                <StackPanel>
+                                <Separator Margin="0,5" />
+
+                                <DockPanel>
+                                    <StackPanel>
+                                        <text:LabeledTextBoxView
+                                            Width="200"
+                                            HorizontalAlignment="Left"
+                                            FontSize="{StaticResource NormalFontSize}"
+                                            Label="Начальный потенциал, В."
+                                            Text="{Binding PotentialViewModel.Start, StringFormat=N2, Mode=TwoWay}" />
+
+                                        <text:LabeledTextBoxView
+                                            Width="200"
+                                            HorizontalAlignment="Left"
+                                            FontSize="{StaticResource NormalFontSize}"
+                                            Label="Конечный потенциал, В."
+                                            Text="{Binding PotentialViewModel.End, StringFormat=N2, Mode=TwoWay}" />
+
+                                        <text:LabeledTextBoxView
+                                            Width="200"
+                                            HorizontalAlignment="Left"
+                                            FontSize="{StaticResource NormalFontSize}"
+                                            Label="Шаг потенциала, В."
+                                            Text="{Binding PotentialViewModel.Step, StringFormat=N2, Mode=TwoWay}" />
+
+                                        <Button
+                                            Margin="0,5"
+                                            Command="{Binding PotentialViewModel.Apply}"
+                                            Content="Применить"
+                                            Style="{StaticResource PrimaryButtonStyle}" />
+
+                                        <Button
+                                            Margin="0,5"
+                                            Command="{Binding PotentialViewModel.Recalc}"
+                                            Content="Рассчет шага"
+                                            Style="{StaticResource PrimaryButtonStyle}" />
+
+                                        <Button
+                                            Margin="0,5"
+                                            Command="{Binding PotentialViewModel.Reverse}"
+                                            Content="Инвертировать"
+                                            Style="{StaticResource PrimaryButtonStyle}" />
+                                    </StackPanel>
+
+                                    <DataGrid
+                                        MaxWidth="310"
+                                        MaxHeight="310"
+                                        Margin="30,0"
+                                        HorizontalAlignment="Right"
+                                        AutoGenerateColumns="False"
+                                        CanUserAddRows="False"
+                                        FontFamily="{StaticResource TextFont}"
+                                        FontSize="{StaticResource NormalFontSize}"
+                                        ItemsSource="{Binding Potentials}"
+                                        VerticalScrollBarVisibility="Auto">
+
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn
+                                                Width="auto"
+                                                Binding="{Binding Step}"
+                                                Header="Шаг"
+                                                IsReadOnly="True" />
+
+                                            <DataGridTextColumn
+                                                Width="*"
+                                                Binding="{Binding Potential, StringFormat=N2}"
+                                                Header="Потенциал" />
+                                        </DataGrid.Columns>
+
+                                    </DataGrid>
+
+                                </DockPanel>
+
+                            </StackPanel>
+                        </Border>
+
+                        <StackPanel>
+                            <Border
+                                MinWidth="200"
+                                MaxHeight="100"
+                                VerticalAlignment="Top"
+                                Style="{StaticResource CardStyle}">
+                                <StackPanel VerticalAlignment="Center">
                                     <TextBlock
                                         FontFamily="{StaticResource TitleFont}"
                                         FontSize="{StaticResource BigFontSize}"
-                                        Text="∮Потенциалы:" />
+                                        Text="Частота анализа" />
 
                                     <Separator Margin="0,5" />
 
-                                    <DockPanel>
-                                        <StackPanel>
-                                            <text:LabeledTextBoxView
-                                                Width="200"
-                                                HorizontalAlignment="Left"
-                                                FontSize="{StaticResource NormalFontSize}"
-                                                Label="Начальный потенциал, В."
-                                                Text="{Binding PotentialViewModel.Start, StringFormat=N2, Mode=TwoWay}" />
-
-                                            <text:LabeledTextBoxView
-                                                Width="200"
-                                                HorizontalAlignment="Left"
-                                                FontSize="{StaticResource NormalFontSize}"
-                                                Label="Конечный потенциал, В."
-                                                Text="{Binding PotentialViewModel.End, StringFormat=N2, Mode=TwoWay}" />
-
-                                            <text:LabeledTextBoxView
-                                                Width="200"
-                                                HorizontalAlignment="Left"
-                                                FontSize="{StaticResource NormalFontSize}"
-                                                Label="Шаг потенциала, В."
-                                                Text="{Binding PotentialViewModel.Step, StringFormat=N2, Mode=TwoWay}" />
-
-                                            <Button
-                                                Margin="0,5"
-                                                Command="{Binding PotentialViewModel.Recalc}"
-                                                Content="Рассчет шага"
-                                                Style="{StaticResource PrimaryButtonStyle}" />
-
-                                            <Button
-                                                Margin="0,5"
-                                                Command="{Binding PotentialViewModel.Reverse}"
-                                                Content="Инвертировать"
-                                                Style="{StaticResource PrimaryButtonStyle}" />
-
-                                            <Button
-                                                Margin="0,5"
-                                                Command="{Binding PotentialViewModel.Reverse}"
-                                                Content="Заблокировать"
-                                                Style="{StaticResource PrimaryButtonStyle}" />
-                                        </StackPanel>
-
-                                        <DataGrid
-                                            Width="300"
-                                            Height="300"
-                                            Margin="30,0"
-                                            AutoGenerateColumns="False">
-
-                                            <DataGrid.Columns>
-                                                <DataGridTextColumn
-                                                    Width="auto"
-                                                    Header="Шаг"
-                                                    IsReadOnly="True" />
-                                                <DataGridTextColumn Width="*" Header="Потенциал" />
-                                            </DataGrid.Columns>
-
-                                        </DataGrid>
-
-                                    </DockPanel>
+                                    <StackPanel>
+                                        <ComboBox
+                                            FontFamily="{StaticResource TextFont}"
+                                            FontSize="{StaticResource NormalFontSize}"
+                                            ItemsSource="{Binding Frequencies}"
+                                            SelectedItem="{Binding Frequency}"
+                                            Style="{StaticResource GhostComboBoxStyle}"
+                                            Tag="Частота Гц." />
+                                    </StackPanel>
 
                                 </StackPanel>
                             </Border>
 
+                            <Border
+                                MinWidth="200"
+                                MaxHeight="100"
+                                VerticalAlignment="Top"
+                                Style="{StaticResource CardStyle}">
+                                <StackPanel VerticalAlignment="Center">
+                                    <TextBlock
+                                        FontFamily="{StaticResource TitleFont}"
+                                        FontSize="{StaticResource BigFontSize}"
+                                        Text="Диапазон потенциалов" />
+
+                                    <Separator Margin="0,5" />
+
+                                    <Grid Margin="0,5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="124" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="125" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBlock
+                                            Grid.Column="0"
+                                            Margin="0,0,8,0"
+                                            VerticalAlignment="Center"
+                                            Text="От" />
+
+                                        <ComboBox
+                                            Grid.Column="1"
+                                            Margin="0,0,16,0"
+                                            FontFamily="{StaticResource TextFont}"
+                                            FontSize="{StaticResource NormalFontSize}"
+                                            ItemsSource="{Binding StartPotentials}"
+                                            SelectedItem="{Binding StartPotential, Mode=TwoWay}"
+                                            Style="{StaticResource GhostComboBoxStyle}"
+                                            Tag="Начало" />
+
+                                        <TextBlock
+                                            Grid.Column="2"
+                                            Margin="0,0,8,0"
+                                            VerticalAlignment="Center"
+                                            Text="До" />
+
+                                        <ComboBox
+                                            Grid.Column="3"
+                                            FontFamily="{StaticResource TextFont}"
+                                            FontSize="{StaticResource NormalFontSize}"
+                                            ItemsSource="{Binding EndPotentials}"
+                                            SelectedItem="{Binding EndPotential, Mode=TwoWay}"
+                                            Style="{StaticResource GhostComboBoxStyle}"
+                                            Tag="Конец" />
+                                    </Grid>
+                                </StackPanel>
+                            </Border>
                         </StackPanel>
 
-                        <StackPanel Margin="0,10">
-                            <TextBlock
-                                FontFamily="{StaticResource TitleFont}"
-                                FontSize="{StaticResource BigFontSize}"
-                                Text="⩗Частота: ~" />
+                        <Border
+                            Width="240"
+                            MaxHeight="230"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Style="{StaticResource CardStyle}">
+                            <StackPanel VerticalAlignment="Top">
+                                <TextBlock
+                                    FontFamily="{StaticResource TitleFont}"
+                                    FontSize="{StaticResource BigFontSize}"
+                                    Text="Аппроксимация" />
 
-                            <Separator Margin="0,5" />
+                                <Separator Margin="0,5" />
 
-                            <StackPanel>
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
-                                <Button
-                                    Width="180"
-                                    Margin="0,10"
-                                    Content="Выбрать частоту"
-                                    FontFamily="{StaticResource TextFont}"
-                                    FontSize="{StaticResource SmallFontSize}" />
+                                <StackPanel>
+                                    <ComboBox
+                                        Grid.Column="3"
+                                        FontFamily="{StaticResource TextFont}"
+                                        FontSize="{StaticResource NormalFontSize}"
+                                        ItemsSource="{Binding ApproximationTypes}"
+                                        SelectedItem="{Binding ApproximationType, Mode=TwoWay}"
+                                        Style="{StaticResource GhostComboBoxStyle}"
+                                        Tag="Метод" />
+
+                                    <Button
+                                        Margin="0,10"
+                                        Command="{Binding ApproximationApply}"
+                                        Content="Применить"
+                                        Style="{StaticResource PrimaryButtonStyle}" />
+                                    <TextBlock
+                                        Margin="0,10"
+                                        FontFamily="{StaticResource TextFont}"
+                                        FontSize="{StaticResource NormalFontSize}"
+                                        Text="{Binding Slope}" />
+                                    <TextBlock
+                                        Margin="0,10"
+                                        FontFamily="{StaticResource TextFont}"
+                                        FontSize="{StaticResource NormalFontSize}"
+                                        Text="{Binding Intercept}" />
+
+                                </StackPanel>
 
                             </StackPanel>
-                        </StackPanel>
-                    </StackPanel>
+                        </Border>
+                    </WrapPanel>
                 </ScrollViewer>
                 <!--#endregion-->
 
@@ -228,15 +300,23 @@
                             <oxy:PlotView
                                 Background="{StaticResource PanelBrush}"
                                 FontFamily="{StaticResource TextFont}"
-                                FontSize="{StaticResource HugeFontSize}"
+                                FontSize="{StaticResource NormalFontSize}"
                                 Model="{Binding BodePlotModel}" />
+                        </TabItem>
+
+                        <TabItem Header="Боде тест" Style="{StaticResource TabItemStyle}">
+                            <oxy:PlotView
+                                Background="{StaticResource PanelBrush}"
+                                FontFamily="{StaticResource TextFont}"
+                                FontSize="{StaticResource NormalFontSize}"
+                                Model="{Binding BodeTestPlotModel}" />
                         </TabItem>
 
                         <TabItem Header="Мота-Шотки" Style="{StaticResource TabItemStyle}">
                             <oxy:PlotView
                                 Background="{StaticResource PanelBrush}"
                                 FontFamily="{StaticResource TextFont}"
-                                FontSize="{StaticResource HugeFontSize}"
+                                FontSize="{StaticResource NormalFontSize}"
                                 Model="{Binding SchottkyPlotModel}" />
                         </TabItem>
 
@@ -258,10 +338,23 @@
             DataContext="{Binding MenuViewModel}">
             <StackPanel>
                 <TextBlock
+                    Padding="10,4"
                     FontFamily="{StaticResource TitleFont}"
                     FontSize="{StaticResource HugeFontSize}"
                     Text="Меню" />
                 <Separator />
+
+                <Button
+                    Command="{Binding DataContext.BodeFileViewModel.Open, RelativeSource={RelativeSource AncestorType=Window}}"
+                    Content="Открыть"
+                    Style="{StaticResource GhostButtonStyle}" />
+
+                <Button
+                    Command="{Binding DataContext.BodeFileViewModel.Save, RelativeSource={RelativeSource AncestorType=Window}}"
+                    Content="Сохранить"
+                    Style="{StaticResource GhostButtonStyle}" />
+
+                <Button Content="Настройки" Style="{StaticResource GhostButtonStyle}" />
 
             </StackPanel>
         </drawer:DrawerView>

@@ -18,7 +18,12 @@ public partial class App : System.Windows.Application
     {
         base.OnStartup(e);
 
-        DispatcherUnhandledException += (_, ex) => HandleException(ex.Exception);
+        DispatcherUnhandledException += (_, ex) =>
+        {
+            HandleException(ex.Exception);
+            if (ex.Exception is UserException)
+                ex.Handled = true;
+        };
 
         AppDomain.CurrentDomain.UnhandledException += (_, ev) =>
         {
